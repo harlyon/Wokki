@@ -1,0 +1,30 @@
+.description {
+  margin: 1em 0;
+}
+.wrapper {
+  display: flex;
+  width: 100%;
+  @media only screen and (max-width: 650px) {
+    flex-wrap: wrap;
+  }
+
+  & > * {
+    margin: 1em;
+  }
+}
+.poster {
+  border: 1px solid black;
+}
+.textColumn {
+  display: flex;
+  flex-direction: column;
+}
+.titleRating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+}
+.title {
+  margin: 0;
+}

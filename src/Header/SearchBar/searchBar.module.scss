@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+}
+.searchButton {
+  width: 2em;
+  height: 2em;
+  background-image: url("./search.svg");
+  transform: scaleX(-1);
+  background-size: contain;
+  background-color: transparent;
+  border: none;
+  margin: 0 0.5em;
+  cursor: pointer;
+}
